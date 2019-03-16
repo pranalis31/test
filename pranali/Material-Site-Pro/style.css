@@ -1,0 +1,40 @@
+.jumbotron {
+    height: 300px;
+    background-image: url(img/back.jpg) !important;
+}
+.fixed-top {
+    background-color: rgba(0, 0, 0, 0.075) !important;
+}
+
+@media only screen and (max-width: 812px)
+{
+.pl-5 {
+    padding: 0px !important;
+}
+
+.mr-5 {
+    margin: 0px !important;
+}
+
+.pr-5 {
+    padding-right: 0px !important;
+}
+
+.pl-5 {
+    padding: 0px !important;
+}
+
+.mr-5 {
+    margin: 0px !important;
+}
+
+.img-pb {
+    padding-bottom: 2rem;
+}
+
+}
+
+.fixed-top {
+    position:unset;
+
+}
